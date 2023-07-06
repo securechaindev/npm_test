@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example API requirement file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ignore lines/**/*.json --quiet index.js",
+    "test": "jest --detectOpenHandles --runInBand"
+  },
+  "repository": "github:GermanMT/prueba_npm",
+  "license": "EPL-2.0",
+  "dependencies": {
+    "mongoose": "^6.8.4",
+    "swagger-ui-express": "^4.6.0",
+    "winston": "^3.8.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
