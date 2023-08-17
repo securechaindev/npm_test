@@ -12,7 +12,7 @@
   "license": "EPL-2.0",
   "dependencies": {
     "swagger-ui-express": "^4.6.0",
-    "winston": "^3.8.2"
+    "log": "^6.3.0"
   },
   "engines": {
     "node": ">=18.0.0"
