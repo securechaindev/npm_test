@@ -1,7 +1,7 @@
 {
-  "name": "example",
-  "version": "1.0.0",
-  "description": "Example API requirement file",
+  "name": "npm_test",
+  "version": "0.1.0",
+  "description": "Prove package.json files",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
